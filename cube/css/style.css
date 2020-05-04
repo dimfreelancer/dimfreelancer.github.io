@@ -1,0 +1,132 @@
+footer,
+header{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  font-family: 'PT Sans','Roboto',Tahoma;
+}
+footer p{
+  color: #aaa;
+  text-shadow: 2px 2px 25px #0f0;
+}
+header p span{
+  color: #eee;
+  font-family: cursive, fantastic, arial;
+  font-size: 1.8em;
+  text-shadow: 0px 1px 0 #000, 5px 5px 20px green;
+}
+header p{
+  color: #000;
+  text-shadow: 0 2px 1px white, 2px 2px 15px;
+  font-size: 1.5em;
+}
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  background-image: url('https://img3.goodfon.ru/original/1600x1200/1/bc/alienage-algae-green.jpg');
+}
+#wrapper{
+/*   position: absolute; */
+  display: block;
+  -webkit-perspective: 900px;
+  -moz-perspective: 900px;
+  -ms-perspective: 900px;
+  perspective: 900px;
+  width: 90%;
+  height: 90%;
+  margin: 5px auto;
+  background-color: rgba(0,70,25,0.3);
+}
+#cube{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10% auto;
+  -webkit-transform-origin: 50% 50% -150px;
+  -moz-transform-origin: 50% 50% -150px;
+  -ms-transform-origin: 50% 50% -150px;
+  -o-transform-origin: 50% 50% -150px;
+  transform-origin: 50% 50% -150px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  
+/*   -webkit-transform: rotate3d(1,1,1,50deg);
+  -moz-transform: rotate3d(1,1,1,50deg);
+  -ms-transform: rotate3d(1,1,1,50deg);
+  -o-transform: rotate3d(1,1,1,50deg); 
+   transform: rotate3d(1,1,1,-20deg); */
+
+}
+.side{
+  box-sizing: border-box;
+  position: absolute;
+/*   position: relative; */
+  padding: 10px;
+  margin: 10px;
+  
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0,56,140,0.3);
+  
+  line-height: 300px;
+  font-family: cursive;
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+  text-align: center;
+  border: 10px solid #ddd;
+  -webkit-transform-origin: 50% 50% -150px;
+  -moz-transform-origin: 50% 50% -150px;
+  -ms-transform-origin: 50% 50% -150px;
+  -o-transform-origin: 50% 50% -150px;
+  transform-origin: 50% 50% -150px;
+}
+#side1{
+  /*   0deg */
+}
+#side2{
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+}
+#side3{
+  -webkit-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  -o-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+#side4{
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+#side5{
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -ms-transform: rotateX(-90deg);
+  -o-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+#side6{
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
+  -o-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+
