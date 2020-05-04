@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://img3.goodfon.ru/original/1600x1200/1/bc/alienage-algae-green.jpg);
+  overflow: hidden;
+}
+
+.container {
+	position: relative;
+	margin: 200px auto;
+	width: 300px;
+	height: 300px;
+	perspective: 500px;
+}
+
+.cube {
+	width: inherit;
+	height: inherit;
+	transform-style: preserve-3d;
+}
+
+.side {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	border: 5px solid #fff;
+	font: normal 70px Arial;
+	text-align: center;
+	line-height: 300px;
+	color: #fff;
+}
+
+.front {
+	transform: translateZ(150px);
+}
+
+.back {
+	transform: rotateY(180deg) translateZ(150px);
+}
+
+.right {
+	transform: rotateY(90deg) translateZ(150px);
+}
+
+.left {
+	transform: rotateY(-90deg) translateZ(150px);
+}
+
+.top {
+	transform: rotateX(90deg) translateZ(150px);
+}
+
+.bottom {
+	transform: rotateX(-90deg) translateZ(150px);
+}
