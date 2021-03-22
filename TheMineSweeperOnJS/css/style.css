@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    /* font-size: 12px; */
+    /* font-weight: 500; */
+    text-align: center;
+}
+body {
+    background-color: #ededed;
+}
+h1 {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+h2 {
+    font-size: 22px;
+    padding: 10px 20px;
+}
+
+table {
+    display: inline-block;
+    /* border: 5px solid red; */
+    margin: 0;
+    padding: 0;
+    width: 206px;
+    height: 206px;
+}
+tbody {
+    width: 100%;
+    height: 100%;
+}
+tr {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+}
+td {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+}
+
+
+.app {
+    padding: 0px;
+    display: block;
+    background-color: lightgray;
+}
+.game-field {
+    margin: 20px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.game-cell {
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid #000;
+    /* background-color: #fff; */
+}
+
+.game-cell {
+    background: url('../sprite/mytiles-zero.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.empty-0 {
+    background-position: -0px 0px;
+}
+.empty-1 {
+    background-position: -32px 0px;
+}
+.empty-2 {
+    background-position: -64px 0px;
+}
+.empty-3 {
+    background-position: -96px 0px;
+}
+.empty-4 {
+    background-position: -128px 0px;
+}
+.empty-5 {
+    background-position: -160px 0px;
+}
+.empty-6 {
+    background-position: -192px 0px;
+}
+.empty-7 {
+    background-position: -224px 0px;
+}
+.empty-8 {
+    background-position: -256px 0px;
+}
+
+.flag {
+    background-position: -288px 0px;
+}
+.not-bomb, .empty-10 {
+    background-position: -320px 0px;
+}
+.boom, .empty-11 {
+    background-position: -352px 0px;
+}
+.bomb, .empty-12 {
+    background-position: -384px 0px;
+}
+.question, .empty-13 {
+    background-position: -416px 0px;
+}
+.empty-0.open,
+.empty-14 {
+    background-position: -448px 0px;
+}
+.empty-15 {
+    background-position: -480px 0px;
+}
+.empty-16 {
+    background-position: -512px 0px;
+}
+
+
+
+.empty-1:hover,
+.empty-2:hover,
+.empty-3:hover,
+.empty-4:hover,
+.empty-5:hover,
+.empty-6:hover,
+.empty-7:hover,
+.empty-8:hover,
+.empty-0:hover,
+.empty-blue {
+    background-position: -129px -33px; /* hover blue */
+}
+
+
+
+
+
+
+
+
+
+
+
+

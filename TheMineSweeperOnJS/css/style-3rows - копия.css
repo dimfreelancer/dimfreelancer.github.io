@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    /* font-size: 12px; */
+    /* font-weight: 500; */
+    text-align: center;
+}
+body {
+    background-color: #ededed;
+}
+h1 {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+h2 {
+    font-size: 22px;
+    padding: 10px 20px;
+}
+
+table {
+    display: inline-block;
+    /* border: 5px solid red; */
+    margin: 0;
+    padding: 0;
+    width: 206px;
+    height: 206px;
+}
+tbody {
+    width: 100%;
+    height: 100%;
+}
+tr {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+}
+td {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+}
+
+
+.app {
+    padding: 0px;
+    display: block;
+    background-color: lightgray;
+}
+.game-field {
+    margin: 20px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.game-cell {
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid #000;
+    /* background-color: #fff; */
+}
+
+.game-cell {
+    background: url('../sprite/mytiles.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.empty-1 {
+    background-position: -1px -1px; /* 0 0 */
+}
+.empty-2 {
+    background-position: -33px -1px;
+}
+.empty-3 {
+    background-position: -65px -1px;
+}
+.empty-4 {    
+    background-position: -97px -1px;
+}
+
+.empty-5 {
+    background-position: -1px -33px; /* 0 0 */
+}
+.empty-6 {
+    background-position: -33px -33px;
+}
+.empty-7 {
+    background-position: -65px -33px;
+}
+.empty-8 {    
+    background-position: -97px -33px;
+}
+
+.flag {
+    background-position: -1px -65px;
+}
+.no-bomb {
+    background-position: -33px -65px;
+}
+.boom {
+    background-position: -97px -65px;
+}
+.bomb {
+    background-position: -129px -65px;
+}
+.question {
+    background-position: -65px -65px;
+}
+
+
+
+.empty-0,
+.empty,
+.close {    
+    background-position: -129px -1px;
+}
+
+
+.empty-1:hover,
+.empty-2:hover,
+.empty-3:hover,
+.empty-4:hover,
+.empty-5:hover,
+.empty-6:hover,
+.empty-7:hover,
+.empty-8:hover,
+.empty-0:hover,
+.empty-blue {
+    background-position: -129px -33px; /* hover blue */
+}
+
+
+
+
+
+
+
+
+
+
+
+
